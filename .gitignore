@@ -1,0 +1,17 @@
+# datasets are large; keep them out of git
+data/
+*.pcap
+*.pcapng
+*.parquet
+*.csv
+!literature/*.csv
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# os / editor
+.DS_Store
+.vscode/
